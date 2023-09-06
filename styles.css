@@ -143,11 +143,5 @@
     align-items: center;
     background-image: url("images/Row3_012.jpg");background-size: cover;
   }
-  /*
-  .square {
-    width: calc(100px + var(--mouse-x) * 20px);
-    height: calc(100px + var(--mouse-y) * 20px);
-    background: white;
-    transition: all 0.3s;
-  }
+
 
