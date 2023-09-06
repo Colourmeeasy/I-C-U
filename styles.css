@@ -1,0 +1,153 @@
+
+  
+  :root {
+    --mouse-x: 0px;
+    --mouse-y: 0px; 
+  }
+
+  .mover {
+    
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+  }
+
+  body {
+    background-color: black;
+    height: 100vh; 
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(25, 1fr);
+  }
+  
+  .cell {
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid gray;*/
+    z-index: 2;
+  }
+  
+
+.cell:nth-child(1):hover ~ .content {--mouse-x: 1;--mouse-y: 1;background-image: url("images/Row3_000.jpg");}
+.cell:nth-child(2):hover ~ .content {--mouse-x: 2;--mouse-y: 1;background-image: url("images/Row3_001.jpg");}
+.cell:nth-child(3):hover ~ .content {--mouse-x: 3;--mouse-y: 1;background-image: url("images/Row3_002.jpg");}
+.cell:nth-child(4):hover ~ .content {--mouse-x: 4;--mouse-y: 1;background-image: url("images/Row3_003.jpg");}
+.cell:nth-child(5):hover ~ .content {--mouse-x: 5;--mouse-y: 1;background-image: url("images/Row3_004.jpg");}
+.cell:nth-child(6):hover ~ .content {--mouse-x: 6;--mouse-y: 1;background-image: url("images/Row3_005.jpg");}
+.cell:nth-child(7):hover ~ .content {--mouse-x: 7;--mouse-y: 1;background-image: url("images/Row3_006.jpg");}
+.cell:nth-child(8):hover ~ .content {--mouse-x: 8;--mouse-y: 1;background-image: url("images/Row3_007.jpg");}
+.cell:nth-child(9):hover ~ .content {--mouse-x: 9;--mouse-y: 1;background-image: url("images/Row3_008.jpg");}
+.cell:nth-child(10):hover ~ .content {--mouse-x: 10;--mouse-y: 1;background-image: url("images/Row3_009.jpg");}
+.cell:nth-child(11):hover ~ .content {--mouse-x: 11;--mouse-y: 1;background-image: url("images/Row3_010.jpg");}
+.cell:nth-child(12):hover ~ .content {--mouse-x: 12;--mouse-y: 1;background-image: url("images/Row3_011.jpg");}
+.cell:nth-child(13):hover ~ .content {--mouse-x: 13;--mouse-y: 1;background-image: url("images/Row3_012.jpg");}
+.cell:nth-child(14):hover ~ .content {--mouse-x: 14;--mouse-y: 1;background-image: url("images/Row3_013.jpg");}
+.cell:nth-child(15):hover ~ .content {--mouse-x: 15;--mouse-y: 1;background-image: url("images/Row3_014.jpg");}
+.cell:nth-child(16):hover ~ .content {--mouse-x: 16;--mouse-y: 1;background-image: url("images/Row3_015.jpg");}
+.cell:nth-child(17):hover ~ .content {--mouse-x: 17;--mouse-y: 1;background-image: url("images/Row3_016.jpg");}
+.cell:nth-child(18):hover ~ .content {--mouse-x: 18;--mouse-y: 1;background-image: url("images/Row3_017.jpg");}
+.cell:nth-child(19):hover ~ .content {--mouse-x: 19;--mouse-y: 1;background-image: url("images/Row3_018.jpg");}
+.cell:nth-child(20):hover ~ .content {--mouse-x: 20;--mouse-y: 1;background-image: url("images/Row3_019.jpg");}
+.cell:nth-child(21):hover ~ .content {--mouse-x: 21;--mouse-y: 1;background-image: url("images/Row3_020.jpg");}
+.cell:nth-child(22):hover ~ .content {--mouse-x: 22;--mouse-y: 1;background-image: url("images/Row3_021.jpg");}
+.cell:nth-child(23):hover ~ .content {--mouse-x: 23;--mouse-y: 1;background-image: url("images/Row3_022.jpg");}
+.cell:nth-child(24):hover ~ .content {--mouse-x: 24;--mouse-y: 1;background-image: url("images/Row3_023.jpg");}
+.cell:nth-child(25):hover ~ .content {--mouse-x: 25;--mouse-y: 1;background-image: url("images/Row3_024.jpg");}
+
+.cell:nth-child(26):hover ~ .content {--mouse-x: 1;--mouse-y: 2;background-image: url("images/Row4_000.jpg");}
+.cell:nth-child(27):hover ~ .content {--mouse-x: 2;--mouse-y: 2;background-image: url("images/Row4_001.jpg");}
+.cell:nth-child(28):hover ~ .content {--mouse-x: 3;--mouse-y: 2;background-image: url("images/Row4_002.jpg");}
+.cell:nth-child(29):hover ~ .content {--mouse-x: 4;--mouse-y: 2;background-image: url("images/Row4_002.jpg");}
+.cell:nth-child(30):hover ~ .content {--mouse-x: 5;--mouse-y: 2;background-image: url("images/Row4_004.jpg");}
+.cell:nth-child(31):hover ~ .content {--mouse-x: 6;--mouse-y: 2;background-image: url("images/Row4_005.jpg");}
+.cell:nth-child(32):hover ~ .content {--mouse-x: 7;--mouse-y: 2;background-image: url("images/Row4_006.jpg");}
+.cell:nth-child(33):hover ~ .content {--mouse-x: 8;--mouse-y: 2;background-image: url("images/Row4_007.jpg");}
+.cell:nth-child(34):hover ~ .content {--mouse-x: 9;--mouse-y: 2;background-image: url("images/Row4_008.jpg");}
+.cell:nth-child(35):hover ~ .content {--mouse-x: 10;--mouse-y: 2;background-image: url("images/Row4_009.jpg");}
+.cell:nth-child(36):hover ~ .content {--mouse-x: 11;--mouse-y: 2;background-image: url("images/Row4_010.jpg");}
+.cell:nth-child(37):hover ~ .content {--mouse-x: 12;--mouse-y: 2;background-image: url("images/Row4_011.jpg");}
+.cell:nth-child(38):hover ~ .content {--mouse-x: 13;--mouse-y: 2;background-image: url("images/Row4_012.jpg");}
+.cell:nth-child(39):hover ~ .content {--mouse-x: 14;--mouse-y: 2;background-image: url("images/Row4_013.jpg");}
+.cell:nth-child(40):hover ~ .content {--mouse-x: 15;--mouse-y: 2;background-image: url("images/Row4_014.jpg");}
+.cell:nth-child(41):hover ~ .content {--mouse-x: 16;--mouse-y: 2;background-image: url("images/Row4_015.jpg");}
+.cell:nth-child(42):hover ~ .content {--mouse-x: 17;--mouse-y: 2;background-image: url("images/Row4_016.jpg");}
+.cell:nth-child(43):hover ~ .content {--mouse-x: 18;--mouse-y: 2;background-image: url("images/Row4_017.jpg");}
+.cell:nth-child(44):hover ~ .content {--mouse-x: 19;--mouse-y: 2;background-image: url("images/Row4_018.jpg");}
+.cell:nth-child(45):hover ~ .content {--mouse-x: 20;--mouse-y: 2;background-image: url("images/Row4_019.jpg");}
+.cell:nth-child(46):hover ~ .content {--mouse-x: 21;--mouse-y: 2;background-image: url("images/Row4_020.jpg");}
+.cell:nth-child(47):hover ~ .content {--mouse-x: 22;--mouse-y: 2;background-image: url("images/Row4_021.jpg");}
+.cell:nth-child(48):hover ~ .content {--mouse-x: 23;--mouse-y: 2;background-image: url("images/Row4_022.jpg");}
+.cell:nth-child(49):hover ~ .content {--mouse-x: 24;--mouse-y: 2;background-image: url("images/Row4_023.jpg");}
+.cell:nth-child(50):hover ~ .content {--mouse-x: 25;--mouse-y: 2;background-image: url("images/Row4_024.jpg");}
+
+.cell:nth-child(51):hover ~ .content {--mouse-x: 1;--mouse-y: 3;background-image: url("images/Row5_000.jpg");}
+.cell:nth-child(52):hover ~ .content {--mouse-x: 2;--mouse-y: 3;background-image: url("images/Row5_001.jpg");}
+.cell:nth-child(53):hover ~ .content {--mouse-x: 3;--mouse-y: 3;background-image: url("images/Row5_002.jpg");}
+.cell:nth-child(54):hover ~ .content {--mouse-x: 4;--mouse-y: 3;background-image: url("images/Row5_002.jpg");}
+.cell:nth-child(55):hover ~ .content {--mouse-x: 5;--mouse-y: 3;background-image: url("images/Row5_004.jpg");}
+.cell:nth-child(56):hover ~ .content {--mouse-x: 6;--mouse-y: 3;background-image: url("images/Row5_005.jpg");}
+.cell:nth-child(57):hover ~ .content {--mouse-x: 7;--mouse-y: 3;background-image: url("images/Row5_006.jpg");}
+.cell:nth-child(58):hover ~ .content {--mouse-x: 8;--mouse-y: 3;background-image: url("images/Row5_007.jpg");}
+.cell:nth-child(59):hover ~ .content {--mouse-x: 9;--mouse-y: 3;background-image: url("images/Row5_008.jpg");}
+.cell:nth-child(60):hover ~ .content {--mouse-x: 10;--mouse-y: 3;background-image: url("images/Row5_009.jpg");}
+.cell:nth-child(61):hover ~ .content {--mouse-x: 11;--mouse-y: 3;background-image: url("images/Row5_010.jpg");}
+.cell:nth-child(62):hover ~ .content {--mouse-x: 12;--mouse-y: 3;background-image: url("images/Row5_011.jpg");}
+.cell:nth-child(63):hover ~ .content {--mouse-x: 13;--mouse-y: 3;background-image: url("images/Row5_012.jpg");}
+.cell:nth-child(64):hover ~ .content {--mouse-x: 14;--mouse-y: 3;background-image: url("images/Row5_013.jpg");}
+.cell:nth-child(65):hover ~ .content {--mouse-x: 15;--mouse-y: 3;background-image: url("images/Row5_014.jpg");}
+.cell:nth-child(66):hover ~ .content {--mouse-x: 16;--mouse-y: 3;background-image: url("images/Row5_015.jpg");}
+.cell:nth-child(67):hover ~ .content {--mouse-x: 17;--mouse-y: 3;background-image: url("images/Row5_016.jpg");}
+.cell:nth-child(68):hover ~ .content {--mouse-x: 18;--mouse-y: 3;background-image: url("images/Row5_017.jpg");}
+.cell:nth-child(69):hover ~ .content {--mouse-x: 19;--mouse-y: 3;background-image: url("images/Row5_018.jpg");}
+.cell:nth-child(70):hover ~ .content {--mouse-x: 20;--mouse-y: 3;background-image: url("images/Row5_019.jpg");}
+.cell:nth-child(71):hover ~ .content {--mouse-x: 21;--mouse-y: 3;background-image: url("images/Row5_020.jpg");}
+.cell:nth-child(72):hover ~ .content {--mouse-x: 22;--mouse-y: 3;background-image: url("images/Row5_021.jpg");}
+.cell:nth-child(73):hover ~ .content {--mouse-x: 23;--mouse-y: 3;background-image: url("images/Row5_022.jpg");}
+.cell:nth-child(74):hover ~ .content {--mouse-x: 24;--mouse-y: 3;background-image: url("images/Row5_023.jpg");}
+.cell:nth-child(75):hover ~ .content {--mouse-x: 25;--mouse-y: 3;background-image: url("images/Row5_024.jpg");}
+
+.cell:nth-child(76):hover ~ .content {--mouse-x: 1;--mouse-y: 4;background-image: url("images/Row6_000.jpg");}
+.cell:nth-child(77):hover ~ .content {--mouse-x: 2;--mouse-y: 4;background-image: url("images/Row6_001.jpg");}
+.cell:nth-child(78):hover ~ .content {--mouse-x: 3;--mouse-y: 4;background-image: url("images/Row6_002.jpg");}
+.cell:nth-child(79):hover ~ .content {--mouse-x: 4;--mouse-y: 4;background-image: url("images/Row6_002.jpg");}
+.cell:nth-child(80):hover ~ .content {--mouse-x: 5;--mouse-y: 4;background-image: url("images/Row6_004.jpg");}
+.cell:nth-child(81):hover ~ .content {--mouse-x: 6;--mouse-y: 4;background-image: url("images/Row6_005.jpg");}
+.cell:nth-child(82):hover ~ .content {--mouse-x: 7;--mouse-y: 4;background-image: url("images/Row6_006.jpg");}
+.cell:nth-child(83):hover ~ .content {--mouse-x: 8;--mouse-y: 4;background-image: url("images/Row6_007.jpg");}
+.cell:nth-child(84):hover ~ .content {--mouse-x: 9;--mouse-y: 4;background-image: url("images/Row6_008.jpg");}
+.cell:nth-child(85):hover ~ .content {--mouse-x: 10;--mouse-y: 4;background-image: url("images/Row6_009.jpg");}
+.cell:nth-child(86):hover ~ .content {--mouse-x: 11;--mouse-y: 4;background-image: url("images/Row6_010.jpg");}
+.cell:nth-child(87):hover ~ .content {--mouse-x: 12;--mouse-y: 4;background-image: url("images/Row6_011.jpg");}
+.cell:nth-child(88):hover ~ .content {--mouse-x: 13;--mouse-y: 4;background-image: url("images/Row6_012.jpg");}
+.cell:nth-child(89):hover ~ .content {--mouse-x: 14;--mouse-y: 4;background-image: url("images/Row6_013.jpg");}
+.cell:nth-child(90):hover ~ .content {--mouse-x: 15;--mouse-y: 4;background-image: url("images/Row6_014.jpg");}
+.cell:nth-child(91):hover ~ .content {--mouse-x: 16;--mouse-y: 4;background-image: url("images/Row6_015.jpg");}
+.cell:nth-child(92):hover ~ .content {--mouse-x: 17;--mouse-y: 4;background-image: url("images/Row6_016.jpg");}
+.cell:nth-child(93):hover ~ .content {--mouse-x: 18;--mouse-y: 4;background-image: url("images/Row6_017.jpg");}
+.cell:nth-child(94):hover ~ .content {--mouse-x: 19;--mouse-y: 4;background-image: url("images/Row6_018.jpg");}
+.cell:nth-child(95):hover ~ .content {--mouse-x: 20;--mouse-y: 4;background-image: url("images/Row6_019.jpg");}
+.cell:nth-child(96):hover ~ .content {--mouse-x: 21;--mouse-y: 4;background-image: url("images/Row6_020.jpg");}
+.cell:nth-child(97):hover ~ .content {--mouse-x: 22;--mouse-y: 4;background-image: url("images/Row6_021.jpg");}
+.cell:nth-child(98):hover ~ .content {--mouse-x: 23;--mouse-y: 4;background-image: url("images/Row6_022.jpg");}
+.cell:nth-child(99):hover ~ .content {--mouse-x: 24;--mouse-y: 4;background-image: url("images/Row6_023.jpg");}
+.cell:nth-child(100):hover ~ .content {--mouse-x: 25;--mouse-y: 4;background-image: url("images/Row6_024.jpg");}
+
+
+
+  .content {
+    --mouse-x: 0;
+    --mouse-y: 0;
+  
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Row3_012.jpg");background-size: cover;
+  }
+  /*
+  .square {
+    width: calc(100px + var(--mouse-x) * 20px);
+    height: calc(100px + var(--mouse-y) * 20px);
+    background: white;
+    transition: all 0.3s;
+  }
+
