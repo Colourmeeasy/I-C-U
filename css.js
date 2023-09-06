@@ -10,3 +10,18 @@ root.addEventListener("mousemove", e => {
  
 }); 
 
+
+var images = [];
+function preload() {
+    for (var i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+}
+
+//-- usage --//
+preload(
+    "http://domain.tld/gallery/image-001.jpg",
+    "http://domain.tld/gallery/image-002.jpg",
+    "http://domain.tld/gallery/image-003.jpg"
+)
