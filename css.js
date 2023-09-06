@@ -21,7 +21,7 @@ function preload() {
 
 //-- usage --//
 preload(
-"images/Row3_000.jpg"
+"images/Row3_000.jpg",
 "images/Row3_001.jpg",
 "images/Row3_002.jpg",
 "images/Row3_003.jpg",
