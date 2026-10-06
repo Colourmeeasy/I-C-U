@@ -1,31 +1,4 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: black;
-}
 
-body {
-    cursor: default;
-}
-
-.content {
-    position: fixed;
-    inset: 0;
-
-    width: 100%;
-    height: 100%;
-
-    /* Initial image while everything loads */
-    background-image: url("images/Row4_012.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
   
   :root {
     --mouse-x: 0px;
@@ -170,5 +143,4 @@ body {
     align-items: center;
     background-image: url("images/Row3_012.jpg");background-size: cover;
   }
-
 
